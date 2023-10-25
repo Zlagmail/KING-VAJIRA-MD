@@ -14,7 +14,7 @@ global.email = 'botwhatsapp204@gmail.com' ;
 global.location = 'Rathnapura SriLanka' ;
 global.timezone  = process.env.TIME_ZONE || 'Asia/Colombo'
 global.gurl = 'https://youtube.com/@gamingewingyt6216' ; // add your username
-global.sudo =  process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : '94766943622'; ;
+global.sudo =  process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : 2349043487099'; ;
 global.devs = "923184474176"; //Dont change it From here
 global.github  = process.env.YOUR_GITHUB || 'https://github.com/vajirabot1/KING-VAJIRA-MD';
 global.scan  = process.env.QR_URL || 'https://replit.com/@VajiraRathnayak/KING-VAJIRA-MD?v=1';
@@ -38,7 +38,7 @@ module.exports = {
   readmessage: process.env.READ_MESSAGE || 'false',   //  | 'false' | 'true' | 
   readcmds : process.env.READ_COMMANDS || 'false',    //  | 'false' | 'true' | 
   HANDLERS: process.env.PREFIX || ',',
-  warncount : process.env.WARN_COUNT || 3,
+  warncount : process.env.WARN_COUNT || 1,
   disablepm: process.env.DISABLE_PM || "false",   
   MsgsInLog:process.env.MSGS_IN_LOG ||'false',
   pmMsgsInLog:process.env.PM_MSGS_IN_LOGS ||'false',
